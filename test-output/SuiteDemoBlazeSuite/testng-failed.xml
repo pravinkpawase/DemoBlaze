@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteDemoBlazeSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestDemoBlazeSuite(failed)">
+    <classes>
+      <class name="com.qa.testLayer.HomePageTest">
+        <methods>
+          <include name="start"/>
+          <include name="verifyNexus6"/>
+          <include name="turnOff"/>
+        </methods>
+      </class> <!-- com.qa.testLayer.HomePageTest -->
+    </classes>
+  </test> <!-- TestDemoBlazeSuite(failed) -->
+</suite> <!-- Failed suite [SuiteDemoBlazeSuite] -->
